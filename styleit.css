@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(to top, skyblue, lightgreen);
+    background-attachment: fixed;
+    
+  }
+
+  h1 {
+    color: rgb(138, 24, 110);
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: "press start 2p", cursive;
+    font-size: 24 px;
+  }
+
+  p {
+    color: rgb(21, 52, 75);
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    font-display: block;
+    font-family: "consolas", cursive;
+  }
+  
+  a {
+    margin-bottom: 50px;
+    display: block;
+    color: #ffa;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ff0;
+  }
+  a:active {
+    color:purple;
+  }
+  
+  form {
+    margin-bottom: 100px;
+  }
+  
+  label, input, select, textarea {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"], textarea, select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #555;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: grey;
+  }
+  
+  td {
+    background-color: lightgrey;
+  }
+  
+  p {
+    margin-bottom: 50px;
+  }
+  
+  h4 {
+    margin-top: 50px;
+  }
+  
+  ul {
+    list-style-type: square;
+    margin: 20px 0;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 315px;
+    margin: 20px 0;
+    border: none;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+    
+  }
+  button:hover {
+    background-color: #555;
+  }
+  
+/* Replace invalid selector "b1" with a valid selector */
+/* For example, change "b1:hover" to ".b1:hover" */
+#b1:hover {
+    background-color: #9d0707;
+}
+  
